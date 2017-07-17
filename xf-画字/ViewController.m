@@ -23,6 +23,7 @@
         if([layer isKindOfClass:[XFLayer class]])
         {
             [layer removeFromSuperlayer];
+            ///////
         }
     }
     [XFLayer createAnimationLayerWithString:@"噶_den先森，XF" andRect: CGRectMake(0, 100, self.view.frame.size.width, self.view.frame.size.width) andView:self.view andFont:[UIFont boldSystemFontOfSize:40] andStrokeColor:[UIColor cyanColor]];
